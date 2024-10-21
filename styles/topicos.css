@@ -6,7 +6,8 @@
 
 .tópicos__titulo {
     color: var(--branco);
-    font-weight: 300;
+    font-weight: 400;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
@@ -23,8 +24,15 @@
 .tópicos__link {
     color: var(--branco);
     padding: 1em;
+    border-radius: 10px;
     background-color: var(--laranja);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+
+.tópicos__link:hover {
+    background-color: rgb(207, 136, 4);
+    padding: 1.1em;
+    transition: 0.3s;
 }
